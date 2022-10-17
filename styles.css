@@ -1,0 +1,51 @@
+/*
+=================
+     COLORS
+=================
+*/
+
+:root {
+    --very-dark-magenta: hsl(300, 43%, 22%);
+    --soft-pink: hsl(333, 80%, 67%);
+    --dark-grayish-magenta: hsl(303, 10%, 53%);
+    --light-grayish-magenta: hsl(300, 24%, 96%);
+    --white: hsl(0, 0%, 100%);
+}
+
+/* 
+=================
+   Basic reset
+=================
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'League Spartan', sans-serif;
+}
+
+.social-proof-background {
+    background-image: url(./images/bg-pattern-top-desktop.svg);
+    background-repeat: no-repeat;
+    padding: 48px 24px;
+}
+
+.social-proof-title {
+    color: var(--very-dark-magenta);
+    font-size: 40px;
+    text-align: center;
+    line-height: 32px;
+    letter-spacing: -1px;
+}
+
+.social-proof-paragraph {
+    color: var(--dark-grayish-magenta);
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 24px;
+    text-align: center;
+    line-height: 20px;
+}
